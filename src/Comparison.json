@@ -1,8 +1,8 @@
 [
   {
     "id": 1,
-    "image": "some image",
-    "loan_balance": 30000,
+    "image": "http://placehold.it/200x100",
+    "loan_balance": 70000,
     "interest_rate": 5,
     "term": 20,
     "period": "monthly",
@@ -10,7 +10,7 @@
   },
   {
     "id": 2,
-    "image": "some image",
+    "image": "http://placehold.it/200x100",
     "loan_balance": 30000,
     "interest_rate": 5,
     "term": 20,
@@ -19,8 +19,8 @@
   },
   {
     "id": 3,
-    "image": "some image",
-    "loan_balance": 30000,
+    "image": "http://placehold.it/200x100",
+    "loan_balance": 80000,
     "interest_rate": 5,
     "term": 20,
     "period": "monthly",
@@ -28,7 +28,7 @@
   },
   {
     "id": 4,
-    "image": "some image",
+    "image": "http://placehold.it/200x100",
     "loan_balance": 30000,
     "interest_rate": 5,
     "term": 20,
@@ -37,7 +37,7 @@
   },
   {
     "id": 5,
-    "image": "some image",
+    "image": "http://placehold.it/200x100",
     "loan_balance": 30000,
     "interest_rate": 5,
     "term": 20,
@@ -46,7 +46,7 @@
   },
   {
     "id": 6,
-    "image": "some image",
+    "image": "http://placehold.it/200x100",
     "loan_balance": 30000,
     "interest_rate": 5,
     "term": 20,

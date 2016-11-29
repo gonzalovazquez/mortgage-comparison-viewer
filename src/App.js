@@ -11,16 +11,40 @@ class App extends Component {
     };
   }
   render() {
-    const listItems = searches.map((elem, key) =>
+    const listItems = searches.map((listing, key) =>
            <Col xs={6} md={4} key={key}>
            <div className="widget">
+              <h3>Search # {listing.id} </h3>
+              <img src={listing.image} alt="house" />
               <p>
-                {elem.id} | 
-                {elem.loan_balance} | 
-                {elem.interest_rate} |
-                {elem.term} |
-                {elem.period} |
-                {elem.monthly_payments}
+                Loan Balance:
+                <strong>
+                   ${listing.loan_balance}
+                </strong>
+              </p>
+              <p>
+                Interest Rate:
+                <strong>
+                   {listing.interest_rate}%
+                </strong>
+              </p>
+              <p>
+                Term:
+                <strong>
+                   {listing.term}
+                </strong>
+              </p>
+              <p>
+                Period:
+                <strong>
+                   {listing.period}
+                </strong>
+              </p>
+              <p>
+                Monthly Payments: 
+                <strong>
+                   ${listing.monthly_payments}
+                </strong>
               </p>
             </div>
           </Col>
