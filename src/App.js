@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import searches from './Comparison.json';
+import { Navbar, Jumbotron, Button, Grid, Row, Col } from 'react-bootstrap';
 import './App.css';
 
 class App extends Component {
@@ -9,23 +9,32 @@ class App extends Component {
     this.state = {
       value: 'test',
     };
-    console.log(searches);
   }
   render() {
     const listItems = searches.map((elem, key) =>
-          <li key={key}>{elem.id}</li>
+           <Col xs={6} md={4} key={key} className="widget">
+            <p>
+              {elem.id} | 
+              {elem.loan_balance} | 
+              {elem.interest_rate} |
+              {elem.term} |
+              {elem.period} |
+              {elem.monthly_payments}
+            </p>
+          </Col>
     );
     return (
       <div className="App">
         <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
           <h2>Mortgage Comparison</h2>
         </div>
-        <p className="App-intro">
-          {this.state.value}
-        </p>
-        <ul>{listItems}</ul>
+          <Grid>
+            <Row className="show-grid">
+              {listItems}
+            </Row>
+          </Grid>
       </div>
+      
     );
   }
 }

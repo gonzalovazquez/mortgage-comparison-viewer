@@ -25,14 +25,5 @@
     "term": 20,
     "period": "monthly",
     "monthly_payments": 200
-  },
-  {
-    "id": 4,
-    "image": "some image",
-    "loan_balance": 30000,
-    "interest_rate": 5,
-    "term": 20,
-    "period": "monthly",
-    "monthly_payments": 200
   }
 ]
