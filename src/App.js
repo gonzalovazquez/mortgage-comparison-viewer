@@ -12,15 +12,17 @@ class App extends Component {
   }
   render() {
     const listItems = searches.map((elem, key) =>
-           <Col xs={6} md={4} key={key} className="widget">
-            <p>
-              {elem.id} | 
-              {elem.loan_balance} | 
-              {elem.interest_rate} |
-              {elem.term} |
-              {elem.period} |
-              {elem.monthly_payments}
-            </p>
+           <Col xs={6} md={4} key={key}>
+           <div className="widget">
+              <p>
+                {elem.id} | 
+                {elem.loan_balance} | 
+                {elem.interest_rate} |
+                {elem.term} |
+                {elem.period} |
+                {elem.monthly_payments}
+              </p>
+            </div>
           </Col>
     );
     return (
