@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import searches from './Comparison.json';
-import { Navbar, Jumbotron, Button, Grid, Row, Col } from 'react-bootstrap';
+import { Navbar, Grid, Row, Col } from 'react-bootstrap';
 import './App.css';
 
 class App extends Component {
