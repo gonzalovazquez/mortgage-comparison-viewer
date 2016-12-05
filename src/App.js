@@ -15,7 +15,7 @@ class App extends Component {
            <Col xs={6} md={4} key={key}>
            <div className="widget">
               <h3>Search # {listing.id} </h3>
-              <img src={listing.image} alt="house" />
+              <img src={listing.image} alt="house" width="100%" />
               <p>
                 Loan Balance:
                 <strong>
@@ -29,7 +29,7 @@ class App extends Component {
                 </strong>
               </p>
               <p>
-                Term:
+                Loan term (years):
                 <strong>
                    {listing.term}
                 </strong>
@@ -52,7 +52,7 @@ class App extends Component {
     return (
       <div className="App">
         <div className="App-header">
-          <h2>Mortgage Comparison</h2>
+          <h2>My Home</h2>
         </div>
           <Grid>
             <Row className="show-grid">
