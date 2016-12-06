@@ -1,24 +1,40 @@
+/* Common */
+.tar {
+    text-align: right;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
 .App-header {
-  background-color: #222;
+  background-color: rgb(118, 199, 109);
   height: 150px;
   padding: 20px;
-  color: white;
+  color: #3a3838;
+  text-transform: uppercase;
 }
 
-.App-intro {
-  font-size: large;
+.widget {
+  padding: 20px;
+  margin: 10px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgb(0, 0, 0) 0px 0px 20px;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.widget > p {
+  text-align: left;
+  padding-top: 10px;
+}
+
+p.amount {
+  color: rgb(84, 185, 72);
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 30px;
+}
+
+.compare-btn {
+  margin-top: 30px !important;
+  margin-bottom: 30px !important;
 }

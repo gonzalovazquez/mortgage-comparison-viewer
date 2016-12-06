@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "image": "http://www.blogto.com/upload/2015/02/201529-14-bridle.jpg",
+    "loan_balance": 70000,
+    "interest_rate": 5,
+    "term": 20,
+    "period": "monthly",
+    "monthly_payments": 200,
+    "link": "https://www.realtor.ca/"
+  },
+  {
+    "id": 2,
+    "image": "http://www.blogto.com/upload/2015/02/201529-14-bridle.jpg",
+    "loan_balance": 30000,
+    "interest_rate": 5,
+    "term": 20,
+    "period": "monthly",
+    "monthly_payments": 200,
+    "link": "https://www.realtor.ca/"
+  },
+  {
+    "id": 3,
+    "image": "http://www.blogto.com/upload/2015/02/201529-14-bridle.jpg",
+    "loan_balance": 80000,
+    "interest_rate": 5,
+    "term": 20,
+    "period": "monthly",
+    "monthly_payments": 200,
+    "link": "https://www.realtor.ca/"
+  },
+  {
+    "id": 4,
+    "image": "http://www.blogto.com/upload/2015/02/201529-14-bridle.jpg",
+    "loan_balance": 30000,
+    "interest_rate": 5,
+    "term": 20,
+    "period": "monthly",
+    "monthly_payments": 200,
+    "link": "https://www.realtor.ca/"
+  },
+  {
+    "id": 5,
+    "image": "http://www.blogto.com/upload/2015/02/201529-14-bridle.jpg",
+    "loan_balance": 30000,
+    "interest_rate": 5,
+    "term": 20,
+    "period": "monthly",
+    "monthly_payments": 200,
+    "link": "https://www.realtor.ca/"
+  },
+  {
+    "id": 6,
+    "image": "http://www.blogto.com/upload/2015/02/201529-14-bridle.jpg",
+    "loan_balance": 30000,
+    "interest_rate": 5,
+    "term": 20,
+    "period": "monthly",
+    "monthly_payments": 200,
+    "link": "https://www.realtor.ca/"
+  }
+]
