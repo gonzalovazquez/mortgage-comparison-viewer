@@ -1,17 +1,9 @@
 import React, { Component } from 'react';
 import searches from '../Comparison.json';
 import {Row, Col, Checkbox } from 'react-bootstrap';
+import './Widget.css';
 
 class Widget extends Component {
-  constructor() {
-    super();
-    this.updateState = (e) => {
-      this.setState(
-        {widgetA: 'Setting Example A', widgetB: 'Setting Example B'}
-      );
-      console.log(this.state);
-    }
-  }
   render() {
     const listItems = searches.map((listing, key) =>
           <Col xs={6} md={4} key={key}>
@@ -34,14 +26,12 @@ class Widget extends Component {
                 </p>
                 <p><a href={listing.link}>Reference</a></p>
                 <p className="amount">${listing.monthly_payments} per month</p>
-                <Checkbox inline className="tar" onClick={this.updateState}>
-                  Compare
-                </Checkbox>
               </div>
           </Col>
     );
     return (
       <Row className="show-grid">
+      <h1>{this.props.name}</h1>
               {listItems}
       </Row>
     );
