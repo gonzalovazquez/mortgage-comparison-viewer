@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Widget from '../Widget/Widget';
-import { Grid, Row, Col, Button } from 'react-bootstrap';
+import { Grid } from 'react-bootstrap';
 import './App.css';
 
 class App extends Component {

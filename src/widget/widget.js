@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import searches from '../Comparison.json';
-import {Row, Col, Checkbox } from 'react-bootstrap';
+import {Row, Col } from 'react-bootstrap';
 import './Widget.css';
 
 class Widget extends Component {
