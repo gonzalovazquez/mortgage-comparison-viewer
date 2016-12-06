@@ -15,25 +15,6 @@
   text-transform: uppercase;
 }
 
-.widget {
-  padding: 20px;
-  margin: 10px;
-  background-color: rgb(255, 255, 255);
-  box-shadow: rgb(0, 0, 0) 0px 0px 20px;
-}
-
-.widget > p {
-  text-align: left;
-  padding-top: 10px;
-}
-
-p.amount {
-  color: rgb(84, 185, 72);
-  text-transform: uppercase;
-  font-weight: 800;
-  font-size: 30px;
-}
-
 .compare-btn {
   margin-top: 30px !important;
   margin-bottom: 30px !important;
