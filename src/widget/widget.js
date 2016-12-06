@@ -26,14 +26,12 @@ class Widget extends Component {
                 </p>
                 <p><a href={listing.link}>Reference</a></p>
                 <p className="amount">${listing.monthly_payments} per month</p>
-                <Checkbox inline className="tar">
-                  Compare
-                </Checkbox>
               </div>
           </Col>
     );
     return (
       <Row className="show-grid">
+      <h1>{this.props.name}</h1>
               {listItems}
       </Row>
     );
